@@ -6,7 +6,7 @@ var computerChoices = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l
 // var computerChoices = ["hello", "world", "earth"]
 
 
-// Creating variables to hold the number of wins, losses, and ties. They start at 0.
+// Creating variables to hold the number of wins, losses, and guesses left.
 var wins = 0;
 var losses = 0;
 var Guessesleft = 9;
@@ -22,7 +22,7 @@ var guessesleftText = document.getElementById('guessesleft-text');
 var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
 console.log("before user types " + computerGuess);
 
-// Display the user and computer guesses, and wins/losses/ties.
+// Display the user and computer guesses, and wins/losses/guesses left.
 //   computerChoiceText.textContent = 'The computer chose: ' + computerGuess;
 winsText.textContent = "wins: " + wins;
 lossesText.textContent = "losses: " + losses;
