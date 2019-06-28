@@ -2,20 +2,29 @@
     font-size: 28px;
     text-align: center;
     padding: 10px;
-    border: 4px black dashed;
-    margin-bottom: 12px;
+    border: 2px rgb(23, 97, 23) dashed;
+    margin-bottom: 30px;
     margin-top: 5%;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+img {
+    width: 45%;
+    opacity: .35;
+    margin-left: 27%;
 }
 
 p {
     font-size: 18px;
     text-align: center;
     color: blueviolet;
+    margin: 25px 38% 25px 38%;
+    border: 1px  rgb(23, 97, 23) dashed;
 }
 
 body {
     background-image: url("../images/darkness/darkness.png");
+    /* background: seashell; */
     font-family: Arial, Helvetica, sans-serif;
 }
